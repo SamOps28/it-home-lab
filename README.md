@@ -12,15 +12,14 @@ Built and documented by **Sam Penix**.
 |---|---|
 | [01 - Active Directory](01-active-directory) | Windows Server 2022 domain controller, DNS, DHCP, OUs, Group Policy, NTFS file share permissions |
 | [02 - Entra ID and Intune](02-entra-intune) | Hybrid identity with Entra Connect Sync, Microsoft 365 licensing and MFA, hybrid join, Intune compliance, configuration profiles and app deployment |
+| [03 - Networking](03-networking) | Cisco Packet Tracer network with VLANs, 802.1Q trunking, router-on-a-stick inter-VLAN routing, and DHCP relay from a server in another VLAN |
 | [04 - osTicket Help Desk](04-osticket-helpdesk) | Self-hosted ticketing system with Microsoft 365 email intake, automatic routing, SLAs, AD sign-in for agents, tickets worked end to end, a file server using AGDLP, and a knowledge base |
-
-Lab 03 is reserved for a networking lab, planned for physical Cisco equipment.
 
 ---
 
 ## The environment
 
-Everything runs as virtual machines in VMware Workstation Pro on one isolated lab network, 192.168.10.0/24, in a domain called lab.local.
+Everything runs as virtual machines in VMware Workstation Pro on one isolated lab network, 192.168.10.0/24, in a domain called lab.local. Lab 03 is the exception: it runs in Cisco Packet Tracer and mirrors the same addressing.
 
 | Machine | Role |
 |---|---|
@@ -45,4 +44,4 @@ Everything runs as virtual machines in VMware Workstation Pro on one isolated la
 
 ## Tools and technologies
 
-Windows Server 2022, Windows 11, Active Directory, DNS, DHCP, Group Policy, NTFS permissions, Microsoft Entra ID, Entra Connect Sync, Microsoft 365, Intune, osTicket, XAMPP (Apache, MariaDB, PHP), PowerShell, VMware Workstation Pro
+Windows Server 2022, Windows 11, Active Directory, DNS, DHCP, Group Policy, NTFS permissions, Microsoft Entra ID, Entra Connect Sync, Microsoft 365, Intune, osTicket, Cisco Packet Tracer, Cisco IOS, XAMPP (Apache, MariaDB, PHP), PowerShell, VMware Workstation Pro
